@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: company-fallback
+server:
+  port: ${PORT:9797}
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
